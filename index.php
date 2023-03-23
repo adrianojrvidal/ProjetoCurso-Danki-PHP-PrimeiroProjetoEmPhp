@@ -12,14 +12,22 @@
     <meta name="keywords" content="palavras,chaves,do,meu,site">
     <meta name="desciption" content="Descrição do meu site">
 
+	<!--CSS-->
+	<link rel="stylesheet" type="text/css" href="estilo/style.css">
+	<link rel="stylesheet" type="text/css" href="estilo/fontawesome/css/all.min.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
 	<header>
 		<div class="center">
-			<div class="logo"><a href="/">Logomarca</a></div><!--logo-->
+			<div class="logo left"><a href="/">Logomarca</a></div><!--logo-->
 			<!-- Menu para desktop -->
-            <nav class="desktop">
+            <nav class="desktop right">
 				<ul>
 					<li><a href="">Home</a></li>
 					<li><a href="depoimentos">Depoimentos</a></li>
@@ -36,6 +44,7 @@
 					<li><a href="contato">Contato</a></li>
 				</ul>
 			</nav>
+			<div class="clear"></div>
 		</div><!--center-->
 	</header>
 
@@ -51,7 +60,7 @@
 
 	<section class="descricao-autor">
 		<div class="center">
-			<div class="w50">
+			<div class="w50 left">
 				<h2>Adriano Junior Vidal</h2>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -61,29 +70,30 @@
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</p>
 			</div>
-			<div class="w50">
+			<div class="w50 left">
 				<img src="images/adrianojrv.jpg">
 			</div>
+			<div class="clear"></div>
 		</div>	
 	</section>
 
 	<section class="especialidades">
-		<h2 class="title">Especialidades</h2>
+		<h2 class="title center">Especialidades</h2>
 		<div class="center">
-			<div class="box-especialidade">
-				<h3>Icone 1</h3>
+			<div class="box-especialidade w33 left">
+				<h3><i class="fa-brands fa-css3-alt"></i></h3>
 				<h4>CSS3</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
 			</div><!--box-especialidade-->
 
-			<div class="box-especialidade">
-				<h3>Icone 2</h3>
+			<div class="box-especialidade w33 left">
+				<h3><i class="fa-brands fa-html5"></i></h3>
 				<h4>HTML 5</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
 			</div><!--box-especialidade-->
 
-			<div class="box-especialidade">
-				<h3>Icone 3</h3>
+			<div class="box-especialidade w33 left">
+				<h3><i class="fa-brands fa-js"></i></h3>
 				<h4>Javascript</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
 			</div><!--box-especialidade-->
@@ -92,7 +102,7 @@
 
 	<section class="extras">
 		<div class="center">
-			<div class="w50 depoimentos-container">
+			<div class="w50 left depoimentos-container">
 				<h2 class="title">Depoimentos dos nossos clientes</h2>
 				
 				<div class="depoimento-single">
@@ -118,6 +128,7 @@
 					</ul>
 				</div><!--servicos-->
 			</div><!--w50-->
+			<div class="clear"></div>
 		</div><!--center-->
 	</section><!--extras-->
 

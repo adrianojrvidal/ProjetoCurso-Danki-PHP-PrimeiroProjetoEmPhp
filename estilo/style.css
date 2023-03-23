@@ -1,0 +1,75 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Boot CSS */
+
+.center {
+    max-width: 1280px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w33 {
+    width: 33.3%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* CSS Especifico */
+
+header {
+    background-color: #3d437a;
+    padding: 20px 0;
+}
+
+header .logo a{
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.mobile {
+    display: none;
+}
+
+nav.desktop ul {
+    list-style: none;
+    position: relative;
+}
+
+nav.desktop li {
+    padding: 0 30px;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+nav.desktop a {
+    text-decoration: none;
+    color: white;
+}
+
+
