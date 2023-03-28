@@ -37,6 +37,7 @@
 			</nav>
             <!-- Menu para dispositivos mobile-->
 			 <nav class="mobile right">
+				<div class="botao-menu"><i class="fa-solid fa-bars"></i></div>
 				<ul>
 					<li><a href="">Home</a></li>
 					<li><a href="">Depoimentos</a></li>
@@ -72,7 +73,7 @@
 				</p>
 			</div>
 			<div class="w50 left">
-				<img src="images/adrianojrv.jpg">
+				<img src="images/adrianojrv.jpg" class="right">
 			</div>
 			<div class="clear"></div>
 		</div>	

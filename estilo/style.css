@@ -16,6 +16,7 @@
 
 .w50 {
     width: 50%;
+    padding: 0 2%;
 }
 
 .w33 {
@@ -129,3 +130,83 @@ nav.desktop a {
     cursor: pointer;
     border: 0;
 }
+
+.descricao-autor{
+    padding: 30px 0;
+
+}
+
+.descricao-autor h2{
+    font-size: 25px;
+    font-weight: 400;
+    color: #444;
+}
+
+.descricao-autor p{
+    font-size: 16px;
+    color: #444;
+    margin-top: 10px;
+}
+
+.descricao-autor img {
+    width: 70%;
+    border-radius: 50%;
+}
+
+
+
+
+@media screen and (max-width: 780px){
+    nav.desktop{
+        display: none;
+    }
+
+    nav.mobile {
+       display: block;
+    }
+
+    nav.mobile ul {
+        display: none;
+        z-index: 3;
+        position: absolute;
+        left: 0;
+        top: 55px;
+        text-align: center;
+        width: 100%;
+    }
+
+    nav.mobile li {
+        font-weight: 300;
+      font-size: 15px;
+      display: block;
+      background-color: white;
+      border-bottom: 1px solid #ccc;
+      padding: 8px 0;
+    }
+
+    nav.mobile li a{
+        color: #444;
+        text-decoration: none;
+        display: block;
+    }
+
+    .botao-menu {
+        font-size: 24px;
+        cursor: pointer;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 768px){
+    img{
+        float: none !important;
+        display: block;
+        margin: 0 auto;
+        max-width: 300px;
+    }
+    .w50 {
+        padding: 20px;
+        width: 100%;
+    }
+}
+
