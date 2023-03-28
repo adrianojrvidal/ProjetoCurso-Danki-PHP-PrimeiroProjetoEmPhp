@@ -8,6 +8,11 @@
 
 /* Boot CSS */
 
+img {
+    width: 100%;
+    max-width: 400px;
+}
+
 .center {
     max-width: 1280px;
     padding: 0 2%;
@@ -20,7 +25,8 @@
 }
 
 .w33 {
-    width: 33.3%;
+    width: 33%;
+    padding: 0 10px;
 }
 
 .left {
@@ -149,9 +155,53 @@ nav.desktop a {
 }
 
 .descricao-autor img {
-    width: 70%;
     border-radius: 50%;
+    margin: 0 auto;
 }
+
+
+.especialidades {
+    background-color: #e2e2e2;
+    padding: 40px 0;
+}
+
+.especialidades h2.title {
+    font-size: 30px;
+    color: #999;
+    font-weight: 400;
+    text-align: center;
+}
+
+.box-especialidade {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.box-especialidade h3{
+    color: #404580;
+    font-size: 40px;
+}
+
+.box-especialidade h4{
+    font-weight: 300;
+    font-size: 25px;
+    color: #bababa;
+}
+
+.box-especialidade p {
+    margin-top: 10px;
+    color: #444;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -202,11 +252,19 @@ nav.desktop a {
         float: none !important;
         display: block;
         margin: 0 auto;
-        max-width: 300px;
     }
     .w50 {
         padding: 20px;
         width: 100%;
     }
+    .w33 {
+        width: 100%;
+        padding: 20px;
+    }
+    .box-especialidade{
+        padding: 40px 20px ;
+        margin: 0;
+    }
 }
+
 
