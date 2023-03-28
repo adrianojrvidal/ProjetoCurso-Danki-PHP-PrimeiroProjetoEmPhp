@@ -21,7 +21,7 @@ img {
 
 .w50 {
     width: 50%;
-    padding: 0 2%;
+    padding: 0 10px;
 }
 
 .w33 {
@@ -195,16 +195,72 @@ nav.desktop a {
 }
 
 
+.depoimentos-container {
+    padding: 0 50px;
+}
+
+.depoimento-single {
+    padding: 15px 0;
+    border-bottom: 1px solid #5056a0;
+}
+
+p.depoimento-descricao {
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+p.nome-autor {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.servicos-container {
+    padding: 0 50px;
+}
+
+.extras {
+    padding: 30px 0;
+    background-color: #404580;
+}
+
+.extras .title {
+    color: white;
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.servicos ul {
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+}
+
+.servicos li {
+    margin: 20px 0;
+    list-style-position: inside;
+}
+
+footer {
+    background-color: #313462;
+    padding: 30px 0;
+} 
+
+footer p{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
 
 
 
 
-
-
-
-
-
-
+/* Responsivo */
 
 @media screen and (max-width: 780px){
     nav.desktop{
